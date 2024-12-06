@@ -1,0 +1,270 @@
+:root {
+    font-family: 'Inter', Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #0f0f0f;
+    background-color: #f6f6f6;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .container {
+    margin: 0;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+
+  .upload-section,
+  .greet-section {
+    margin-bottom: 2rem;
+  }
+
+  .file-input,
+  .greet-input {
+    padding: 0.75em 1.25em;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .file-input:focus,
+  .greet-input:focus {
+    border-color: #396cd8;
+    box-shadow: 0 0 5px rgba(57, 108, 216, 0.5);
+  }
+
+  .upload-button,
+  .greet-button {
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #396cd8;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.25s, transform 0.1s;
+  }
+
+  .upload-button:hover,
+  .greet-button:hover {
+    background-color: #2857a1;
+  }
+
+  .upload-button:active,
+  .greet-button:active {
+    transform: scale(0.98);
+  }
+
+  .footer-text {
+    font-size: 0.875rem;
+    color: #777;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .logo-link {
+    margin: 0 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .logo-link:hover {
+    transform: scale(1.1);
+  }
+
+  .logo {
+    height: 5em;
+    transition: filter 0.3s ease;
+  }
+
+  .logo.vite:hover {
+    filter: drop-shadow(0 0 1em #747bff);
+  }
+
+  .logo.svelte-kit:hover {
+    filter: drop-shadow(0 0 1em #ff3e00);
+  }
+
+  .logo.tauri:hover {
+    filter: drop-shadow(0 0 1em #24c8db);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color: #f6f6f6;
+      background-color: #2f2f2f;
+    }
+
+    .upload-button,
+    .greet-button {
+      background-color: #0f0f0f98;
+    }
+
+    .upload-button:hover,
+    .greet-button:hover {
+      background-color: #0f0f0f69;
+    }
+
+    .footer-text {
+      color: #ccc;
+    }
+  }
+
+  /* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+}
+
+h1.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2e3a59;
+  margin-bottom: 20px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1.5rem;
+  color: #2e3a59;
+  margin-bottom: 10px;
+}
+
+/* Upload Section */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.file-input {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.upload-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+/* Meeting List Section */
+.meeting-list-section {
+  margin-bottom: 40px;
+}
+
+.meeting-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.meeting-item {
+  padding: 12px;
+  background-color: #fafafa;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.meeting-item:hover {
+  background-color: #e0e4e8;
+}
+
+/* Meeting Files Section */
+.meeting-files-section {
+  margin-top: 40px;
+}
+
+.meeting-files-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.file-item {
+  padding: 10px;
+  background-color: #f0f4f7;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.file-item:hover {
+  background-color: #dbe3e9;
+}
+.go-back-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.go-back-button:hover {
+  background-color: #2980b9;
+}
