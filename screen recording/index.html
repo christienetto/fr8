@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Recorder with Upload</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #f4f4f9;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Screen Recorder</h1>
+  <button id="startRecordingBtn">Start Recording</button>
+  <button id="uploadBtn" disabled>Upload Recording</button>
+
+  <script>
+    let mediaRecorder;
+    let recordedChunks = [];
+    let recordedBlob;
+
+    async function startRecording() {
+      try {
+        // Request screen sharing
+        const stream = await navigator.mediaDevices.getDisplayMedia({
+          video: { mediaSource: "screen" },
+          audio: true, // Optional: Capture audio as well
+        });
+
+        // Initialize MediaRecorder
+        mediaRecorder = new MediaRecorder(stream);
+
+        // Collect data chunks
+        mediaRecorder.ondataavailable = (event) => {
+          if (event.data.size > 0) {
+            recordedChunks.push(event.data);
+          }
+        };
+
+        // Handle stop event
+        mediaRecorder.onstop = () => {
+          recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
+          console.log("Recording complete. Ready for upload.");
+          document.getElementById("uploadBtn").disabled = false; // Enable upload button
+          recordedChunks = [];
+        };
+
+        // Start recording
+        mediaRecorder.start();
+        console.log("Recording started!");
+
+        // Stop recording after 10 seconds (example)
+        setTimeout(() => {
+          mediaRecorder.stop();
+          console.log("Recording stopped!");
+        }, 10000);
+
+      } catch (err) {
+        console.error("Error accessing screen media:", err);
+        alert("Screen recording failed: " + err.message);
+      }
+    }
+
+    async function uploadRecording() {
+      if (!recordedBlob) {
+        alert("No recording available to upload.");
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("file", recordedBlob, "screen-recording.webm");
+
+      try {
+        const response = await fetch("http://localhost:9424/upload", {
+          method: "POST",
+          body: formData,
+        });
+
+        if (response.ok) {
+          console.log("Upload successful!");
+          alert("Recording uploaded successfully.");
+        } else {
+          console.error("Upload failed:", response.statusText);
+          alert("Failed to upload recording.");
+        }
+      } catch (err) {
+        console.error("Error uploading recording:", err);
+        alert("An error occurred during upload.");
+      }
+    }
+
+    // Attach event listeners
+    document.getElementById("startRecordingBtn").addEventListener("click", startRecording);
+    document.getElementById("uploadBtn").addEventListener("click", uploadRecording);
+  </script>
+</body>
+</html>
+

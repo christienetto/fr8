@@ -1,0 +1,11 @@
+/home/chris/atm/randy-bobandy/extension/target/debug/deps/liburl-9fa80653c75feb09.rmeta: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/host.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/origin.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/parser.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/path_segments.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/slicing.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/quirks.rs
+
+/home/chris/atm/randy-bobandy/extension/target/debug/deps/url-9fa80653c75feb09.d: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/host.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/origin.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/parser.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/path_segments.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/slicing.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/quirks.rs
+
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/lib.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/host.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/origin.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/parser.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/path_segments.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/slicing.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.4/src/quirks.rs:

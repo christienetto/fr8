@@ -1,0 +1,9 @@
+/home/chris/atm/randy-bobandy/extension/target/debug/deps/liblitemap-5afe152b453f43bd.rmeta: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/map.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/mod.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/slice_impl.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/vec_impl.rs
+
+/home/chris/atm/randy-bobandy/extension/target/debug/deps/litemap-5afe152b453f43bd.d: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/map.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/mod.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/slice_impl.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/vec_impl.rs
+
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/lib.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/map.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/mod.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/slice_impl.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/litemap-0.7.4/src/store/vec_impl.rs:

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Recorder with Upload",
+  "description": "Record your screen and upload to the server.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost:9424/*"
+  ]
+}

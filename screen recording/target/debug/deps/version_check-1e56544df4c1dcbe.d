@@ -1,0 +1,10 @@
+/home/chris/src/randy-bobandy/extension/target/debug/deps/libversion_check-1e56544df4c1dcbe.rmeta: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/home/chris/src/randy-bobandy/extension/target/debug/deps/libversion_check-1e56544df4c1dcbe.rlib: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/home/chris/src/randy-bobandy/extension/target/debug/deps/version_check-1e56544df4c1dcbe.d: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs:

@@ -1,0 +1,10 @@
+/home/chris/src/randy-bobandy/extension/target/debug/deps/libactix_codec-b4875dc990187288.rmeta: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/bcodec.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/framed.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lines.rs
+
+/home/chris/src/randy-bobandy/extension/target/debug/deps/libactix_codec-b4875dc990187288.rlib: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/bcodec.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/framed.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lines.rs
+
+/home/chris/src/randy-bobandy/extension/target/debug/deps/actix_codec-b4875dc990187288.d: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/bcodec.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/framed.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lines.rs
+
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lib.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/bcodec.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/framed.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-codec-0.5.2/src/lines.rs:

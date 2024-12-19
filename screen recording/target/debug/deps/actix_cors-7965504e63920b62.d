@@ -1,0 +1,10 @@
+/home/chris/atm/randy-bobandy/extension/target/debug/deps/libactix_cors-7965504e63920b62.rmeta: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/all_or_some.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/builder.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/error.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/inner.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/middleware.rs
+
+/home/chris/atm/randy-bobandy/extension/target/debug/deps/actix_cors-7965504e63920b62.d: /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/lib.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/all_or_some.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/builder.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/error.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/inner.rs /home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/middleware.rs
+
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/lib.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/all_or_some.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/builder.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/error.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/inner.rs:
+/home/chris/.local/share/cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-cors-0.7.0/src/middleware.rs:
